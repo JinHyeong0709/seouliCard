@@ -26,5 +26,4 @@
 ---
 
 ### 주요 기능
-
-
+https://github.com/JinHyeong0709/seouliCard/issues/1#issue-409148830
