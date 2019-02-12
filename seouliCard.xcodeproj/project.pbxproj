@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D639A66322116B34001444F4 /* CoorperatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639A66222116B34001444F4 /* CoorperatorCollectionViewCell.swift */; };
+		D6537E2B2211645700A57ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E2A2211645700A57ED1 /* AppDelegate.swift */; };
+		D6537E2D2211645700A57ED1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E2C2211645700A57ED1 /* HomeViewController.swift */; };
+		D6537E332211645700A57ED1 /* seouliCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6537E312211645700A57ED1 /* seouliCard.xcdatamodeld */; };
+		D6537E452211664400A57ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6537E442211664400A57ED1 /* Assets.xcassets */; };
+		D6537E472211668700A57ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6537E462211668700A57ED1 /* Main.storyboard */; };
+		D6537E49221166A600A57ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6537E48221166A600A57ED1 /* LaunchScreen.storyboard */; };
+		D6537E4C2211675000A57ED1 /* CoorpListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E4B2211675000A57ED1 /* CoorpListModel.swift */; };
+		D6537E4E2211676300A57ED1 /* LicenseStringModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E4D2211676300A57ED1 /* LicenseStringModel.swift */; };
+		D6537E502211677600A57ED1 /* ObjectListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E4F2211677600A57ED1 /* ObjectListModel.swift */; };
+		D6537E522211682300A57ED1 /* CoorperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E512211682300A57ED1 /* CoorperatorViewController.swift */; };
+		D6537E542211684800A57ED1 /* CoorpListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E532211684800A57ED1 /* CoorpListViewController.swift */; };
+		D6537E562211686600A57ED1 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E552211686600A57ED1 /* BookmarkViewController.swift */; };
+		D6537E582211687D00A57ED1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E572211687D00A57ED1 /* DetailViewController.swift */; };
+		D6537E5A221168DC00A57ED1 /* DaumMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E59221168DC00A57ED1 /* DaumMapViewController.swift */; };
+		D6537E5C221168F800A57ED1 /* LicenseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E5B221168F800A57ED1 /* LicenseDetailViewController.swift */; };
+		D6537E5E2211691100A57ED1 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E5D2211691100A57ED1 /* LicenseViewController.swift */; };
+		D6537E602211692500A57ED1 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E5F2211692500A57ED1 /* PopOverViewController.swift */; };
+		D6537E632211697500A57ED1 /* BookMarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E622211697500A57ED1 /* BookMarkTableViewCell.swift */; };
+		D6537E67221169AE00A57ED1 /* FilterListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E66221169AE00A57ED1 /* FilterListTableViewCell.swift */; };
+		D6537E69221169C100A57ED1 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6537E68221169C100A57ED1 /* SearchTableViewCell.swift */; };
+		D6537E6C22116A1700A57ED1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6537E6B22116A1700A57ED1 /* OpenGLES.framework */; };
+		D6537E6E22116A2100A57ED1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6537E6D22116A2100A57ED1 /* SystemConfiguration.framework */; };
+		D6537E7022116A2600A57ED1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6537E6F22116A2600A57ED1 /* CoreLocation.framework */; };
+		D6537E7222116A2E00A57ED1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6537E7122116A2E00A57ED1 /* QuartzCore.framework */; };
+		D6537E7422116A4100A57ED1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6537E7322116A4100A57ED1 /* libc++.tbd */; };
+		D6537E7622116A4800A57ED1 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6537E7522116A4800A57ED1 /* libxml2.tbd */; };
+		D6537E7822116A4E00A57ED1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6537E7722116A4E00A57ED1 /* libsqlite3.tbd */; };
+		D67BE1A22211712C00B7F78A /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67BE1A12211712B00B7F78A /* DaumMap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6537E42221164A100A57ED1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D639A66222116B34001444F4 /* CoorperatorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorperatorCollectionViewCell.swift; sourceTree = "<group>"; };
+		D6537E272211645700A57ED1 /* seouliCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seouliCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6537E2A2211645700A57ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6537E2C2211645700A57ED1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D6537E322211645700A57ED1 /* seouliCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = seouliCard.xcdatamodel; sourceTree = "<group>"; };
+		D6537E392211645900A57ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6537E432211653300A57ED1 /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging Header.h"; sourceTree = "<group>"; };
+		D6537E442211664400A57ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6537E462211668700A57ED1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D6537E48221166A600A57ED1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6537E4B2211675000A57ED1 /* CoorpListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorpListModel.swift; sourceTree = "<group>"; };
+		D6537E4D2211676300A57ED1 /* LicenseStringModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseStringModel.swift; sourceTree = "<group>"; };
+		D6537E4F2211677600A57ED1 /* ObjectListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectListModel.swift; sourceTree = "<group>"; };
+		D6537E512211682300A57ED1 /* CoorperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorperatorViewController.swift; sourceTree = "<group>"; };
+		D6537E532211684800A57ED1 /* CoorpListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorpListViewController.swift; sourceTree = "<group>"; };
+		D6537E552211686600A57ED1 /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
+		D6537E572211687D00A57ED1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D6537E59221168DC00A57ED1 /* DaumMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaumMapViewController.swift; sourceTree = "<group>"; };
+		D6537E5B221168F800A57ED1 /* LicenseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseDetailViewController.swift; sourceTree = "<group>"; };
+		D6537E5D2211691100A57ED1 /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		D6537E5F2211692500A57ED1 /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		D6537E622211697500A57ED1 /* BookMarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTableViewCell.swift; sourceTree = "<group>"; };
+		D6537E66221169AE00A57ED1 /* FilterListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterListTableViewCell.swift; sourceTree = "<group>"; };
+		D6537E68221169C100A57ED1 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		D6537E6B22116A1700A57ED1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D6537E6D22116A2100A57ED1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D6537E6F22116A2600A57ED1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D6537E7122116A2E00A57ED1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D6537E7322116A4100A57ED1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D6537E7522116A4800A57ED1 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		D6537E7722116A4E00A57ED1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D67BE1A12211712B00B7F78A /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6537E242211645700A57ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6537E7822116A4E00A57ED1 /* libsqlite3.tbd in Frameworks */,
+				D6537E7622116A4800A57ED1 /* libxml2.tbd in Frameworks */,
+				D67BE1A22211712C00B7F78A /* DaumMap.framework in Frameworks */,
+				D6537E7422116A4100A57ED1 /* libc++.tbd in Frameworks */,
+				D6537E7222116A2E00A57ED1 /* QuartzCore.framework in Frameworks */,
+				D6537E7022116A2600A57ED1 /* CoreLocation.framework in Frameworks */,
+				D6537E6E22116A2100A57ED1 /* SystemConfiguration.framework in Frameworks */,
+				D6537E6C22116A1700A57ED1 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6537E1E2211645700A57ED1 = {
+			isa = PBXGroup;
+			children = (
+				D6537E292211645700A57ED1 /* seouliCard */,
+				D6537E282211645700A57ED1 /* Products */,
+				D6537E6A22116A1700A57ED1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6537E282211645700A57ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6537E272211645700A57ED1 /* seouliCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6537E292211645700A57ED1 /* seouliCard */ = {
+			isa = PBXGroup;
+			children = (
+				D6537E612211695C00A57ED1 /* Cell */,
+				D6537E4A2211673C00A57ED1 /* Model */,
+				D6537E2A2211645700A57ED1 /* AppDelegate.swift */,
+				D6537E2C2211645700A57ED1 /* HomeViewController.swift */,
+				D6537E462211668700A57ED1 /* Main.storyboard */,
+				D6537E48221166A600A57ED1 /* LaunchScreen.storyboard */,
+				D6537E442211664400A57ED1 /* Assets.xcassets */,
+				D6537E392211645900A57ED1 /* Info.plist */,
+				D6537E312211645700A57ED1 /* seouliCard.xcdatamodeld */,
+				D6537E432211653300A57ED1 /* Bridging Header.h */,
+				D6537E512211682300A57ED1 /* CoorperatorViewController.swift */,
+				D6537E532211684800A57ED1 /* CoorpListViewController.swift */,
+				D6537E552211686600A57ED1 /* BookmarkViewController.swift */,
+				D6537E572211687D00A57ED1 /* DetailViewController.swift */,
+				D6537E59221168DC00A57ED1 /* DaumMapViewController.swift */,
+				D6537E5B221168F800A57ED1 /* LicenseDetailViewController.swift */,
+				D6537E5D2211691100A57ED1 /* LicenseViewController.swift */,
+				D6537E5F2211692500A57ED1 /* PopOverViewController.swift */,
+			);
+			path = seouliCard;
+			sourceTree = "<group>";
+		};
+		D6537E4A2211673C00A57ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6537E4B2211675000A57ED1 /* CoorpListModel.swift */,
+				D6537E4D2211676300A57ED1 /* LicenseStringModel.swift */,
+				D6537E4F2211677600A57ED1 /* ObjectListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6537E612211695C00A57ED1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D6537E622211697500A57ED1 /* BookMarkTableViewCell.swift */,
+				D6537E66221169AE00A57ED1 /* FilterListTableViewCell.swift */,
+				D6537E68221169C100A57ED1 /* SearchTableViewCell.swift */,
+				D639A66222116B34001444F4 /* CoorperatorCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D6537E6A22116A1700A57ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D67BE1A12211712B00B7F78A /* DaumMap.framework */,
+				D6537E7722116A4E00A57ED1 /* libsqlite3.tbd */,
+				D6537E7522116A4800A57ED1 /* libxml2.tbd */,
+				D6537E7322116A4100A57ED1 /* libc++.tbd */,
+				D6537E7122116A2E00A57ED1 /* QuartzCore.framework */,
+				D6537E6F22116A2600A57ED1 /* CoreLocation.framework */,
+				D6537E6D22116A2100A57ED1 /* SystemConfiguration.framework */,
+				D6537E6B22116A1700A57ED1 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6537E262211645700A57ED1 /* seouliCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6537E3C2211645900A57ED1 /* Build configuration list for PBXNativeTarget "seouliCard" */;
+			buildPhases = (
+				D6537E232211645700A57ED1 /* Sources */,
+				D6537E242211645700A57ED1 /* Frameworks */,
+				D6537E252211645700A57ED1 /* Resources */,
+				D6537E42221164A100A57ED1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seouliCard;
+			productName = seouliCard;
+			productReference = D6537E272211645700A57ED1 /* seouliCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6537E1F2211645700A57ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JinHyeongKim;
+				TargetAttributes = {
+					D6537E262211645700A57ED1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D6537E222211645700A57ED1 /* Build configuration list for PBXProject "seouliCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6537E1E2211645700A57ED1;
+			productRefGroup = D6537E282211645700A57ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6537E262211645700A57ED1 /* seouliCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6537E252211645700A57ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6537E49221166A600A57ED1 /* LaunchScreen.storyboard in Resources */,
+				D6537E472211668700A57ED1 /* Main.storyboard in Resources */,
+				D6537E452211664400A57ED1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6537E232211645700A57ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6537E332211645700A57ED1 /* seouliCard.xcdatamodeld in Sources */,
+				D6537E2D2211645700A57ED1 /* HomeViewController.swift in Sources */,
+				D6537E602211692500A57ED1 /* PopOverViewController.swift in Sources */,
+				D6537E2B2211645700A57ED1 /* AppDelegate.swift in Sources */,
+				D6537E5C221168F800A57ED1 /* LicenseDetailViewController.swift in Sources */,
+				D6537E5A221168DC00A57ED1 /* DaumMapViewController.swift in Sources */,
+				D6537E4E2211676300A57ED1 /* LicenseStringModel.swift in Sources */,
+				D6537E502211677600A57ED1 /* ObjectListModel.swift in Sources */,
+				D6537E5E2211691100A57ED1 /* LicenseViewController.swift in Sources */,
+				D6537E69221169C100A57ED1 /* SearchTableViewCell.swift in Sources */,
+				D6537E522211682300A57ED1 /* CoorperatorViewController.swift in Sources */,
+				D639A66322116B34001444F4 /* CoorperatorCollectionViewCell.swift in Sources */,
+				D6537E542211684800A57ED1 /* CoorpListViewController.swift in Sources */,
+				D6537E632211697500A57ED1 /* BookMarkTableViewCell.swift in Sources */,
+				D6537E582211687D00A57ED1 /* DetailViewController.swift in Sources */,
+				D6537E67221169AE00A57ED1 /* FilterListTableViewCell.swift in Sources */,
+				D6537E562211686600A57ED1 /* BookmarkViewController.swift in Sources */,
+				D6537E4C2211675000A57ED1 /* CoorpListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6537E3A2211645900A57ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = all;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6537E3B2211645900A57ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = all;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6537E3D2211645900A57ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNUA34CYV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = seouliCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = JinHyeong.com.seouliCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_STYLE = debugging;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kimjinhyeong/Documents/xcode/seouliCard/seouliCard/Bridging Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D6537E3E2211645900A57ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNUA34CYV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = seouliCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = JinHyeong.com.seouliCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_STYLE = debugging;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kimjinhyeong/Documents/xcode/seouliCard/seouliCard/Bridging Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6537E222211645700A57ED1 /* Build configuration list for PBXProject "seouliCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6537E3A2211645900A57ED1 /* Debug */,
+				D6537E3B2211645900A57ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6537E3C2211645900A57ED1 /* Build configuration list for PBXNativeTarget "seouliCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6537E3D2211645900A57ED1 /* Debug */,
+				D6537E3E2211645900A57ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6537E312211645700A57ED1 /* seouliCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6537E322211645700A57ED1 /* seouliCard.xcdatamodel */,
+			);
+			currentVersion = D6537E322211645700A57ED1 /* seouliCard.xcdatamodel */;
+			path = seouliCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D6537E1F2211645700A57ED1 /* Project object */;
+}
