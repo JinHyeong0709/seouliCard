@@ -26,7 +26,4 @@
 ---
 
 ### Screen Shots
-![simulator screen shot - iphone 8 plus - 2019-02-11 at 15 12 40]<(https://user-images.githubusercontent.com/35838578/52617338-c9840280-2ede-11e9-8dd7-66b3b5a3b74f.png) width="120" height="120">
-![simulator screen shot - iphone 8 plus - 2019-02-11 at 15 12 52]<(https://user-images.githubusercontent.com/35838578/52617346-cee14d00-2ede-11e9-9f57-224a369fea77.png) width="120" height="120">
-![simulator screen shot - iphone 8 plus - 2019-02-11 at 15 13 02]<(https://user-images.githubusercontent.com/35838578/52617354-d6085b00-2ede-11e9-914b-d0087dc77765.png) width="120" height="120">
-![simulator screen shot - iphone 8 plus - 2019-02-11 at 15 13 37]<(https://user-images.githubusercontent.com/35838578/52617386-fd5f2800-2ede-11e9-9265-d9d51979d2ae.png) width="120" height="120">
+<img src = https://user-images.githubusercontent.com/35838578/52617338-c9840280-2ede-11e9-8dd7-66b3b5a3b74f.png) width="120" height="120">
